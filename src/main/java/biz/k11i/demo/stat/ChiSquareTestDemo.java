@@ -48,7 +48,7 @@ public class ChiSquareTestDemo {
 		boolean result = test.chiSquareTest(expected, observed, alpha);
 
 		System.out.printf("有意水準 %.3f%% での観測結果 %s のカイ二乗検定の結果は %s です。\n",
-				alpha,
+				alpha * 100,
 				Arrays.toString(observed),
 				result);
 

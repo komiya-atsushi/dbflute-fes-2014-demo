@@ -36,12 +36,12 @@ public class OLSRegressionDemo {
 
 		out.println("-----");
 		double temperature = 30.0;
-		out.printf("気温が %f ℃ のときの想定売上 : %f\n",
+		out.printf("気温が %.2f ℃ のときの想定売上 : %.2f\n",
 				temperature,
 				regression.predict(temperature));
 
 		temperature = 10.0;
-		out.printf("気温が %f ℃ のときの想定売上 : %f\n",
+		out.printf("気温が %.2f ℃ のときの想定売上 : %.2f\n",
 				temperature,
 				regression.predict(temperature));
 	}
