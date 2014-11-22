@@ -14,3 +14,8 @@
     - 野球選手の年俸について平均、標準偏差や中央値など、代表値を求める
 - `biz.k11i.demo.stat.OLSRegressionDemo.java`
     - 線形回帰によりビールの売上を予測をする
+
+## 発表資料
+
+- [commons-math3 ではじめるゆるふわ統計＆機械学習](https://speakerdeck.com/komiya_atsushi/commons-math3-dehazimeruyuruhuwatong-ji-ji-jie-xue-xi)
+
